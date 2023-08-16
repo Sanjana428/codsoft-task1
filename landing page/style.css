@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('girl 1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  font-size:20px;
+  font-weight:15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(73, 119, 204);
+  font-weight: bold;
+}
+
+ .section {
+  padding: 5.5rem 0;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+} 
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+h3{
+  font-size: 1rem;
+  color:bisque;
+}
+
+p {
+  font-size: 20px;
+  color: beige;
+  margin-bottom: 1.5rem;
+} 
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #666;
+  color: #fff;
+} 
+
+/* Styling for the Features Section */
+#features {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.features-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.features-list li {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.feature-icon {
+  font-size: 40px;
+  color: #37bfa6;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.features-list h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.features-list p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+  /* Styling for the About Us Section */
+#about-us {
+  background-color: #d1e6f9;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 45%;
+}
+
+.about-text h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 45%;
+  position: relative;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-text,
+  .about-image {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+/* Styling for the Contact Us Section */
+#contact-us {
+  background-color: #01293a; 
+  padding: 80px 0;
+}
+
+#contact-us h2{
+  color: whitesmoke;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin-bottom: 20px;
+}
+
+.contact-list strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.contact-list a {
+  color: #37bfa6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+  color: #22a68e;
+}
+
+.social-media-heading,
+.newsletter-heading {
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.social-media-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media-links li {
+  margin: 0 10px;
+}
+
+.social-media-links a {
+  display: block;
+  font-size: 1.2rem;
+  color: #37bfa6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media-links a:hover {
+  color: #22a68e;
+}
+
+.newsletter-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.newsletter-form button {
+  background-color: #37bfa6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #22a68e;
+}
+
+/* Styling for the Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
